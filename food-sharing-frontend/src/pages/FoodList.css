@@ -1,0 +1,14 @@
+.food-item {
+    border: 1px solid green;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  .order-button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+  

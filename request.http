@@ -1,0 +1,13 @@
+### Add a new food listing
+POST http://127.0.0.1:5000/food
+Content-Type: application/json
+Authorization: Bearer YOUR_JWT_TOKEN
+
+{
+  "title": "Burger",
+  "description": "Veg burger with fries",
+  "price": "3.5",
+  "location": "Hostel Block A",
+  "postedBy": "user@example.com",
+  "expiryDate": "2025-02-12"
+}
